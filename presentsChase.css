@@ -1,0 +1,59 @@
+/* Frank Poth 02/28/2018 */
+
+* { box-sizing:border-box; margin:0; padding:0; }
+
+html { height:100%; width:100%; }
+
+body {
+  align-content:center;
+  align-items:space-around;
+  background-color:#202830;
+  display:grid;
+  justify-items:center;
+  height:100%;
+  width:100%;
+  font-family: 'Press Start 2P', cursive;
+
+}
+p {
+  color:#ff0000; 
+  font-size:2.0em; 
+  font-family: 'Press Start 2P', cursive;
+  position: fixed;
+}
+
+h1 {
+  color: #ffffff;
+  padding: 32px;
+  font-size: 5.0em;
+}
+a {
+  color: #ffffff;
+  padding: 5px
+}
+.info {
+  text-align: center;
+  padding: 25px;
+  font-size: 1.5em;
+  position: relative;
+}
+.by {
+  color: #b78b43;
+  bottom: 0;
+  vertical-align: text-bottom;
+}
+@keyframes santaMove {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(10%);
+  }
+}
+img { 
+  width: 10%; 
+  height: auto; 
+  image-rendering: pixelated;
+  animation: santaMove 1s ease-in-out infinite alternate;
+}
+canvas { image-rendering:pixelated; }
