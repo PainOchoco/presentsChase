@@ -1,6 +1,6 @@
 # Presents Chase
 
-This is a tiles retro game in **JavaScript** made by PainOchoco for the **"Le coin des dev's"** Discord server **DevJam** who can become easily infuriating.
+This is a tiles retro game in **JavaScript** for the **"Le coin des dev's"** Discord server **DevJam** who can become easily infuriating.
 
 You can test the game on [my website](https://laboulangerie.xyz/games/presentsChase "Test this game here!")!
 
